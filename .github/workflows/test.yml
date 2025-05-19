@@ -5,6 +5,7 @@ on:
     branches: [ "main", "yololab" ]
   pull_request:
     branches: [ "main", "yololab" ]
+  workflow_dispatch:
 
 jobs:
   test:
